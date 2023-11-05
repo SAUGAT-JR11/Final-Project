@@ -1,0 +1,40 @@
+body{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+.book{
+    text-align: center;
+    border: 1px solid transparent;
+    width: 1000px;
+    margin-left: 480px;
+    margin-top: 90px;
+    background-color: rgba(255,255, 255,0.6);
+}
+label,p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+.error {
+    color: red;
+}
